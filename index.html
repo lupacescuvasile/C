@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Запись на курс</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>📘 Запись на курс</h1>
+      <form>
+        <label for="fullname">Ваше имя и фамилия</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Введите имя и фамилию" required />
+
+        <label for="childname">Имя ребенка</label>
+        <input type="text" id="childname" name="childname" placeholder="Введите имя ребенка" required />
+
+        <label for="city">Ваш город</label>
+        <input type="text" id="city" name="city" placeholder="Введите город" required />
+
+        <label for="phone">Ваш телефон</label>
+        <input type="tel" id="phone" name="phone" placeholder="+373 (00) 000-00-00" required />
+
+        <label for="email">Ваш e-mail</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <div class="checkbox">
+          <input type="checkbox" id="consent" required />
+          <label for="consent">Я согласен(-на) на обработку персональных данных</label>
+        </div>
+
+        <button type="submit">Записаться</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
